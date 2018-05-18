@@ -1,0 +1,33 @@
+\usepackage{acronym}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\tolerance=700
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\fontfamily{phv}\selectfont
+
+\usepackage{listings}
+\lstset{numbers=left, numberstyle=\tiny, numbersep=5pt,showstringspaces=false}
+\lstset{basicstyle=\ttfamily\small,commentstyle=\itshape,backgroundcolor=\color{gray!30}}
+\lstset{captionpos=b,extendedchars=true,inputencoding=utf8,breaklines=true}
+\newcommand{\sectionbreak}{\clearpage}
+
+% Headersettings
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\lhead{\ThesisTitle}
+\rhead{}
+\fancyheadoffset{0.5cm}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+
+\usepackage{layout} 
+\usepackage[left=4cm, right=2cm, top=2.5cm, includehead=true, bottom=2cm, includefoot=true]{geometry}
+
+% \usepackage[scaled]{uarial}      % Arial Font=1.0
+\setlength{\parindent}{0cm}        % kein Einzug bei Paragrafenbeginn
+\clubpenalty=10000                 % schliesst Schusterjungen aus
+\widowpenalty=10000                % schliesst Hurenkinder aus

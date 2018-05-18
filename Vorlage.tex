@@ -1,0 +1,29 @@
+\documentclass[11pt,a4paper]{article} 
+\include{Meta}
+\usepackage{myStyle}
+
+\begin{document}
+
+% Uncomment to don't display the layout page:
+\layout
+
+\include{Sections/Deckblatt}
+\pagenumbering{gobble}
+% \include{Abschnitte/Erklaerung}
+\pagenumbering{roman}
+
+% In case you write in german:
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\tableofcontents \clearpage
+
+% In case you write in german:
+\renewcommand{\listfigurename}{Abbildungsverzeichnis}
+\listoffigures \addcontentsline{toc}{section}{\listfigurename}
+
+\include{Sections/Abbrevs}
+\pagenumbering{arabic}
+
+\include{Sections/Einleitung}
+\include{Sections/Refs}
+
+\end{document}
