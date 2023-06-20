@@ -1,7 +1,7 @@
 # Another modular HBRS LaTeX template
-Since the official template has a bunch of deprecated functions and the rest I got so far aren't modular and even nowhere published, I decided to make this one. 
+The official template has a bunch of deprecated functions. Other templates weren't modular. So I decided to make my own one. 
 
-I'm glad about or any issues and pull requests!!!
+2023: I'm not maintaining the templated. But I will approve pull requests!
 
 ## How to use
 1. Install LaTeX with all its dependencies
